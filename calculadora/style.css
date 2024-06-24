@@ -2,7 +2,7 @@ html, body {
   padding: 0px;
   margin: 0px;
   height: 100%;
-background-color: rgb(43, 29, 37)
+  background-image: url('/bg.png');
 }
 
 #caixota {
@@ -12,24 +12,34 @@ justify-content: center;
 align-items: center;
 }
 
+
 .calculator { 
 background: #fff4f4;
 border-color: #ffc0cb;
 border-radius: 20px;
+border: 7px ridge #ffc0cb;
 max-width: 300px;
 }
 
 button{
 width: 50px;
 height: 50px;
-border: none;
 border-radius: 50px;
+border: none;
 color: rgb(152, 193, 255);
 background: #ffecca;
 font-size: 25px;
 font-weight: bold;
 cursor: pointer;
 outline: none;
+align-items: center;
+position: relative;
+left: 8px;
+}
+
+
+.btn-numbers {
+box-shadow: 2px 2px 0px 0px #ffc0cb;
 
 }
 
@@ -43,22 +53,31 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 15px;
 padding: 30px;
+
 }
 
 #display{
 border: none;
 color: #ffffff;
+text-shadow: 2px 2px salmon;
+border-radius: 8px;
+font-size: 30px;
+font-weight: bold;
+display: flex;
+align-items: flex-end;
+justify-content: flex-start; 
+padding-left: 15px; 
+}
+
+input {
+border: none;
 border-radius: 8px;
 background: #ffc0cb;
 font-size: 30px;
 font-weight: bold;
-width: 295px;
+width: 285px;
 height: 50px;
-display: flex;
 outline: none;
-align-items: flex-end;
-justify-content: space-around;
-
 }
 
 #ion--heart {
