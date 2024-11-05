@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player Vanilla Javascript</title>
+    <title>Ipod Nano 4th Generation</title>
     <link href="style.css" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
@@ -18,12 +18,14 @@
                         <p class="playing"> Now Playing </p>
                    </div>
                         <div class="song-card"> 
-                        <div class="song-info">
+                             <div class="song-info">
                             <div class="track-time">
-                                <div class="track"> </div>
+                                <div class="track"> 
+                                    <div id="progressBar"></div>
+                                </div>
                                  <div class="time">
-                                     <div class="total-time">02:59</div>
-                                     <div class="last-time">03:50</div>
+                                     <div class="total-time"></div>
+                                     <div class="last-time"></div>
                                </div>
                                 </div>
                             <div class="song-name"> 
@@ -44,7 +46,7 @@
                            </svg>
                         </button>
                         <button id="menu">MENU</button>
-                        <button id="play">
+                        <button id="play" onclick="playMusic()">
                             <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24">    
 		                        <path d="M11.427 11.126L4.594 7.33A.4.4 0 0 0 4 7.68v8.64a.4.4 0 0 0 .594.35l6.833-3.796a1 1 0 0 0 0-1.748" />
 		                        <path  stroke-linecap="round" stroke-width="2" d="M16 17V7m4 10V7" />
