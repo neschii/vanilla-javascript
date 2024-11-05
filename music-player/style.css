@@ -11,46 +11,44 @@ body {
       font-family: "Roboto", sans-serif;
 }
 
-
-
-
-#player-1 { 
-  width: 300px;
-  height: 600px;
-  border-radius: 15px;
+.card { 
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-    
+  width: 290px;
+  height: 600px;
+  border-radius: 5px;
+  background: linear-gradient(266deg, rgb(40, 30, 59) 0%, rgba(66,46,105,1) 28%, rgb(89, 61, 146) 49%, rgba(66,46,105,1) 68%, rgb(37, 27, 56) 100%); 
+
 }
 
 .wrapper { 
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
-  width: 16.8rem;
-  height: 21rem;
-  border-radius: 8px;
-  background-color: #1b1b1b;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    background: #1e1c1f;
+    width: 270px;
+    height: 325px;
+    border-radius: 8px;
+    z-index: 0;
 }
 
+.img-card { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 img { 
   width: 255px;
-  height: 316px;
+  height: 305px;
   object-fit: cover;
-  border-radius: 8px;
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
-}
-
-.card { 
-  position: absolute;
-  background: linear-gradient(266deg, rgba(48,35,73,1) 0%, rgba(66,46,105,1) 28%, rgba(71,49,115,1) 49%, rgba(66,46,105,1) 68%, rgba(48,35,73,1) 100%);
+  z-index: 1;
+  opacity: 0.5;
+  border-radius: 4px;
 }
 
 .info-box { 
@@ -77,7 +75,7 @@ margin-top: 2px;
 .song-card { 
   position: absolute;
   left: 50%;
-  top: 51%; 
+  top: 85.6%; 
   transform: translate(-50%, -50%);
   background: #000000b2;
   width: 255px;
@@ -94,15 +92,17 @@ margin-top: 2px;
     margin-top: 10px;
 }
 
-.title {
+.song-name { 
+    text-align: center;
+}
+.music {
     font-size: 15px;
     font-weight: 700;
-
 }
 
 .artist {
-    font-size: 10px;
-    
+    font-size: 13px;
+
 }
 
 .time {
@@ -116,8 +116,6 @@ font-weight: bolder;
 .track {
 position: relative;
 margin-top: 10px;
-
-
 }
 
 .track::before { 
@@ -146,11 +144,11 @@ z-index: 1;
 
 .btn-box {
   position: absolute;
-  height: 8rem;
-  width: 8rem;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
   left: 50%;
-  top: 84%; 
+  top: 80%; 
     background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(194,195,195,1) 47%, rgba(175,175,175,1) 100%);
   transform: translate(-50%, -50%);
   box-shadow: inset 0 2px 4px rgb(102, 89, 112),
@@ -159,11 +157,11 @@ z-index: 1;
 
 .btn-circle {
   position: absolute;
-  height: 3rem;
-  width: 3rem;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%;
   left: 50%;
-  top: 84%; 
+  top: 80%; 
   background-color: #392958;
   transform: translate(-50%, -50%);
   box-shadow: inset 0 0px 2px rgb(102, 89, 112),
@@ -178,43 +176,43 @@ cursor: pointer;
 }
 
 svg {
-fill: #818181;
-stroke: #818181;
+fill: #949494;
+stroke: #949494;
 }
 
 
 #play { 
   position: absolute;
   left: 50%;
-  top: 93%;
+  top: 90%;
   transform: translate(-50%, -50%);
-  width: 2rem;
+  width: 1.6rem;
 }
 
 #menu { 
   position: absolute;
   left: 50%;
-  top: 75%;
+  top: 71%;
   transform: translate(-50%, -50%);
-  color: #818181;
+  color: #949494;
   font-size: 0.7rem;
   font-weight: 800;
 }
 
 #previous { 
   position: absolute;
-  left: 35%;
-  top: 85%;
+  left: 30%;
+  top: 80%;
   transform: translate(-50%, -50%);
-  width: 1.5rem;
+  width: 1.2rem;
 }
 
-#next {
+#next-btn {
   position: absolute;
-  left: 65%;
-  top: 85%;
+  left: 70%;
+  top: 80%;
   transform: translate(-50%, -50%);
-  width: 1.5rem;
+  width: 1.2rem;
 }
 
 
