@@ -2,7 +2,7 @@
 
 <p align="center">
   Decidi criar um clone do famoso iPod Nano, pensando em fazer um projeto básico e criativo que destoe um pouco dos demais players de música que encontramos. <br><br>
-  O player conta já com a barra de duração, botões funcionais de pausar, play, voltar e próxima música além de contar quanto tempo falta pare terminar a música!.
+  O player conta já com a barra de duração, botões funcionais de pausar, play, voltar e próxima música além de contar quanto tempo falta para terminar a música!.
 </p>
 
 <h2 align="center">🚀 Tecnologias Utilizadas</h2>
