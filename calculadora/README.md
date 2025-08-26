@@ -1,4 +1,4 @@
-<h1 align="center">🎀 SUPER HIPER CUTE CALCULATOR 🎀</h1>
+<h1 align="center">🎀 CUTE CALCULATOR 🎀</h1>
 <h2 align="center">💡 SOBRE O PROJETO </h2>
 <p align="center">
   Calculadora que decidi fazer um pouco diferente das demais. É possível fazer contas diretamente usando o teclado e também apertando os botões! 💖.
